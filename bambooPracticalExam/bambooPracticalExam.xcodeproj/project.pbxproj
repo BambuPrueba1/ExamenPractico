@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040EBB16437426F4ECB11E70 /* Pods_bambooPracticalExamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E1A5F7433E0F0ED7F466EE /* Pods_bambooPracticalExamTests.framework */; };
+		340EE8A516A46D180FAAD7AC /* Pods_bambooPracticalExam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BB2A0E49AE4D68DEBF7565 /* Pods_bambooPracticalExam.framework */; };
+		72DBFCE8260D4C1200CF2592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DBFCE7260D4C1200CF2592 /* AppDelegate.swift */; };
+		72DBFCEA260D4C1200CF2592 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DBFCE9260D4C1200CF2592 /* SceneDelegate.swift */; };
+		72DBFCEC260D4C1200CF2592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DBFCEB260D4C1200CF2592 /* ViewController.swift */; };
+		72DBFCEF260D4C1200CF2592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DBFCED260D4C1200CF2592 /* Main.storyboard */; };
+		72DBFCF1260D4C1300CF2592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DBFCF0260D4C1300CF2592 /* Assets.xcassets */; };
+		72DBFCF4260D4C1300CF2592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DBFCF2260D4C1300CF2592 /* LaunchScreen.storyboard */; };
+		72DBFCFF260D4C1300CF2592 /* bambooPracticalExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DBFCFE260D4C1300CF2592 /* bambooPracticalExamTests.swift */; };
+		72DBFD0A260D4C1300CF2592 /* bambooPracticalExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DBFD09260D4C1300CF2592 /* bambooPracticalExamUITests.swift */; };
+		72DBFD25260EC23200CF2592 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72DBFD24260EC23200CF2592 /* GoogleService-Info.plist */; };
+		90FDEFF539C4A3AA2891D74E /* Pods_bambooPracticalExam_bambooPracticalExamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBB067788E65F02F48E6460 /* Pods_bambooPracticalExam_bambooPracticalExamUITests.framework */; };
+		B1A283B8260F161700D83235 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A283B7260F161700D83235 /* RegistroViewController.swift */; };
+		B1A283C62610276B00D83235 /* UIViewController+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A283C52610276B00D83235 /* UIViewController+Loader.swift */; };
+		B1A283D126103C0400D83235 /* ListViewController..swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A283D026103C0400D83235 /* ListViewController..swift */; };
+		B1A283D626103DA100D83235 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A283D526103DA100D83235 /* RecordTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72DBFCFB260D4C1300CF2592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72DBFCDC260D4C1200CF2592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72DBFCE3260D4C1200CF2592;
+			remoteInfo = bambooPracticalExam;
+		};
+		72DBFD06260D4C1300CF2592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72DBFCDC260D4C1200CF2592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72DBFCE3260D4C1200CF2592;
+			remoteInfo = bambooPracticalExam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B75EAC5DF50FCB0A5924400 /* Pods-bambooPracticalExam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bambooPracticalExam.release.xcconfig"; path = "Target Support Files/Pods-bambooPracticalExam/Pods-bambooPracticalExam.release.xcconfig"; sourceTree = "<group>"; };
+		4CA6B91DF96B641AC82F48FA /* Pods-bambooPracticalExam-bambooPracticalExamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bambooPracticalExam-bambooPracticalExamUITests.debug.xcconfig"; path = "Target Support Files/Pods-bambooPracticalExam-bambooPracticalExamUITests/Pods-bambooPracticalExam-bambooPracticalExamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BE978047D2E230A2BC900A7 /* Pods-bambooPracticalExamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bambooPracticalExamTests.debug.xcconfig"; path = "Target Support Files/Pods-bambooPracticalExamTests/Pods-bambooPracticalExamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EA137DE175E2C89BD456667 /* Pods-bambooPracticalExam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bambooPracticalExam.debug.xcconfig"; path = "Target Support Files/Pods-bambooPracticalExam/Pods-bambooPracticalExam.debug.xcconfig"; sourceTree = "<group>"; };
+		72DBFCE4260D4C1200CF2592 /* bambooPracticalExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bambooPracticalExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DBFCE7260D4C1200CF2592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72DBFCE9260D4C1200CF2592 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72DBFCEB260D4C1200CF2592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72DBFCEE260D4C1200CF2592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72DBFCF0260D4C1300CF2592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72DBFCF3260D4C1300CF2592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72DBFCF5260D4C1300CF2592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DBFCFA260D4C1300CF2592 /* bambooPracticalExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bambooPracticalExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DBFCFE260D4C1300CF2592 /* bambooPracticalExamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bambooPracticalExamTests.swift; sourceTree = "<group>"; };
+		72DBFD00260D4C1300CF2592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DBFD05260D4C1300CF2592 /* bambooPracticalExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bambooPracticalExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DBFD09260D4C1300CF2592 /* bambooPracticalExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bambooPracticalExamUITests.swift; sourceTree = "<group>"; };
+		72DBFD0B260D4C1300CF2592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DBFD24260EC23200CF2592 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		73BB2A0E49AE4D68DEBF7565 /* Pods_bambooPracticalExam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bambooPracticalExam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8FD2C47FC37026B2AC11D5 /* Pods-bambooPracticalExam-bambooPracticalExamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bambooPracticalExam-bambooPracticalExamUITests.release.xcconfig"; path = "Target Support Files/Pods-bambooPracticalExam-bambooPracticalExamUITests/Pods-bambooPracticalExam-bambooPracticalExamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1A283B7260F161700D83235 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		B1A283C52610276B00D83235 /* UIViewController+Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Loader.swift"; sourceTree = "<group>"; };
+		B1A283D026103C0400D83235 /* ListViewController..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController..swift; sourceTree = "<group>"; };
+		B1A283D526103DA100D83235 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		BFBB067788E65F02F48E6460 /* Pods_bambooPracticalExam_bambooPracticalExamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bambooPracticalExam_bambooPracticalExamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E1A5F7433E0F0ED7F466EE /* Pods_bambooPracticalExamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bambooPracticalExamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43B1ED3C0B5F4473EE8C158 /* Pods-bambooPracticalExamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bambooPracticalExamTests.release.xcconfig"; path = "Target Support Files/Pods-bambooPracticalExamTests/Pods-bambooPracticalExamTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72DBFCE1260D4C1200CF2592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340EE8A516A46D180FAAD7AC /* Pods_bambooPracticalExam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DBFCF7260D4C1300CF2592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040EBB16437426F4ECB11E70 /* Pods_bambooPracticalExamTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DBFD02260D4C1300CF2592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90FDEFF539C4A3AA2891D74E /* Pods_bambooPracticalExam_bambooPracticalExamUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72DBFCDB260D4C1200CF2592 = {
+			isa = PBXGroup;
+			children = (
+				72DBFCE6260D4C1200CF2592 /* bambooPracticalExam */,
+				72DBFCFD260D4C1300CF2592 /* bambooPracticalExamTests */,
+				72DBFD08260D4C1300CF2592 /* bambooPracticalExamUITests */,
+				72DBFCE5260D4C1200CF2592 /* Products */,
+				9C52924A5E2CD794E61A48E8 /* Pods */,
+				8EF3B08143CB043A17A01BB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72DBFCE5260D4C1200CF2592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72DBFCE4260D4C1200CF2592 /* bambooPracticalExam.app */,
+				72DBFCFA260D4C1300CF2592 /* bambooPracticalExamTests.xctest */,
+				72DBFD05260D4C1300CF2592 /* bambooPracticalExamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72DBFCE6260D4C1200CF2592 /* bambooPracticalExam */ = {
+			isa = PBXGroup;
+			children = (
+				B1A283B6260F15F600D83235 /* Login */,
+				72DBFCE7260D4C1200CF2592 /* AppDelegate.swift */,
+				72DBFCE9260D4C1200CF2592 /* SceneDelegate.swift */,
+				72DBFCED260D4C1200CF2592 /* Main.storyboard */,
+				72DBFCF0260D4C1300CF2592 /* Assets.xcassets */,
+				72DBFCF2260D4C1300CF2592 /* LaunchScreen.storyboard */,
+				72DBFD24260EC23200CF2592 /* GoogleService-Info.plist */,
+				72DBFCF5260D4C1300CF2592 /* Info.plist */,
+			);
+			path = bambooPracticalExam;
+			sourceTree = "<group>";
+		};
+		72DBFCFD260D4C1300CF2592 /* bambooPracticalExamTests */ = {
+			isa = PBXGroup;
+			children = (
+				72DBFCFE260D4C1300CF2592 /* bambooPracticalExamTests.swift */,
+				72DBFD00260D4C1300CF2592 /* Info.plist */,
+			);
+			path = bambooPracticalExamTests;
+			sourceTree = "<group>";
+		};
+		72DBFD08260D4C1300CF2592 /* bambooPracticalExamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72DBFD09260D4C1300CF2592 /* bambooPracticalExamUITests.swift */,
+				72DBFD0B260D4C1300CF2592 /* Info.plist */,
+			);
+			path = bambooPracticalExamUITests;
+			sourceTree = "<group>";
+		};
+		8EF3B08143CB043A17A01BB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73BB2A0E49AE4D68DEBF7565 /* Pods_bambooPracticalExam.framework */,
+				BFBB067788E65F02F48E6460 /* Pods_bambooPracticalExam_bambooPracticalExamUITests.framework */,
+				C4E1A5F7433E0F0ED7F466EE /* Pods_bambooPracticalExamTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C52924A5E2CD794E61A48E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EA137DE175E2C89BD456667 /* Pods-bambooPracticalExam.debug.xcconfig */,
+				3B75EAC5DF50FCB0A5924400 /* Pods-bambooPracticalExam.release.xcconfig */,
+				4CA6B91DF96B641AC82F48FA /* Pods-bambooPracticalExam-bambooPracticalExamUITests.debug.xcconfig */,
+				AD8FD2C47FC37026B2AC11D5 /* Pods-bambooPracticalExam-bambooPracticalExamUITests.release.xcconfig */,
+				5BE978047D2E230A2BC900A7 /* Pods-bambooPracticalExamTests.debug.xcconfig */,
+				E43B1ED3C0B5F4473EE8C158 /* Pods-bambooPracticalExamTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1A283B6260F15F600D83235 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				72DBFCEB260D4C1200CF2592 /* ViewController.swift */,
+				B1A283B7260F161700D83235 /* RegistroViewController.swift */,
+				B1A283C52610276B00D83235 /* UIViewController+Loader.swift */,
+				B1A283D026103C0400D83235 /* ListViewController..swift */,
+				B1A283D526103DA100D83235 /* RecordTableViewCell.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72DBFCE3260D4C1200CF2592 /* bambooPracticalExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DBFD0E260D4C1300CF2592 /* Build configuration list for PBXNativeTarget "bambooPracticalExam" */;
+			buildPhases = (
+				A534371734D06C0C0F090AA2 /* [CP] Check Pods Manifest.lock */,
+				72DBFCE0260D4C1200CF2592 /* Sources */,
+				72DBFCE1260D4C1200CF2592 /* Frameworks */,
+				72DBFCE2260D4C1200CF2592 /* Resources */,
+				7D2CDFCE9EC021D0DD905D60 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bambooPracticalExam;
+			productName = bambooPracticalExam;
+			productReference = 72DBFCE4260D4C1200CF2592 /* bambooPracticalExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72DBFCF9260D4C1300CF2592 /* bambooPracticalExamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DBFD11260D4C1300CF2592 /* Build configuration list for PBXNativeTarget "bambooPracticalExamTests" */;
+			buildPhases = (
+				F1A399230C68515FD4240304 /* [CP] Check Pods Manifest.lock */,
+				72DBFCF6260D4C1300CF2592 /* Sources */,
+				72DBFCF7260D4C1300CF2592 /* Frameworks */,
+				72DBFCF8260D4C1300CF2592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72DBFCFC260D4C1300CF2592 /* PBXTargetDependency */,
+			);
+			name = bambooPracticalExamTests;
+			productName = bambooPracticalExamTests;
+			productReference = 72DBFCFA260D4C1300CF2592 /* bambooPracticalExamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72DBFD04260D4C1300CF2592 /* bambooPracticalExamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DBFD14260D4C1300CF2592 /* Build configuration list for PBXNativeTarget "bambooPracticalExamUITests" */;
+			buildPhases = (
+				D3D0DCD58DAC6743B3852123 /* [CP] Check Pods Manifest.lock */,
+				72DBFD01260D4C1300CF2592 /* Sources */,
+				72DBFD02260D4C1300CF2592 /* Frameworks */,
+				72DBFD03260D4C1300CF2592 /* Resources */,
+				52C5F09C7BA11166FBF03931 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72DBFD07260D4C1300CF2592 /* PBXTargetDependency */,
+			);
+			name = bambooPracticalExamUITests;
+			productName = bambooPracticalExamUITests;
+			productReference = 72DBFD05260D4C1300CF2592 /* bambooPracticalExamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72DBFCDC260D4C1200CF2592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					72DBFCE3260D4C1200CF2592 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					72DBFCF9260D4C1300CF2592 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 72DBFCE3260D4C1200CF2592;
+					};
+					72DBFD04260D4C1300CF2592 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 72DBFCE3260D4C1200CF2592;
+					};
+				};
+			};
+			buildConfigurationList = 72DBFCDF260D4C1200CF2592 /* Build configuration list for PBXProject "bambooPracticalExam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72DBFCDB260D4C1200CF2592;
+			productRefGroup = 72DBFCE5260D4C1200CF2592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72DBFCE3260D4C1200CF2592 /* bambooPracticalExam */,
+				72DBFCF9260D4C1300CF2592 /* bambooPracticalExamTests */,
+				72DBFD04260D4C1300CF2592 /* bambooPracticalExamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72DBFCE2260D4C1200CF2592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DBFCF4260D4C1300CF2592 /* LaunchScreen.storyboard in Resources */,
+				72DBFCF1260D4C1300CF2592 /* Assets.xcassets in Resources */,
+				72DBFD25260EC23200CF2592 /* GoogleService-Info.plist in Resources */,
+				72DBFCEF260D4C1200CF2592 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DBFCF8260D4C1300CF2592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DBFD03260D4C1300CF2592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52C5F09C7BA11166FBF03931 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bambooPracticalExam-bambooPracticalExamUITests/Pods-bambooPracticalExam-bambooPracticalExamUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bambooPracticalExam-bambooPracticalExamUITests/Pods-bambooPracticalExam-bambooPracticalExamUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bambooPracticalExam-bambooPracticalExamUITests/Pods-bambooPracticalExam-bambooPracticalExamUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D2CDFCE9EC021D0DD905D60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bambooPracticalExam/Pods-bambooPracticalExam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bambooPracticalExam/Pods-bambooPracticalExam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bambooPracticalExam/Pods-bambooPracticalExam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A534371734D06C0C0F090AA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bambooPracticalExam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3D0DCD58DAC6743B3852123 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bambooPracticalExam-bambooPracticalExamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1A399230C68515FD4240304 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bambooPracticalExamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72DBFCE0260D4C1200CF2592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DBFCEC260D4C1200CF2592 /* ViewController.swift in Sources */,
+				B1A283B8260F161700D83235 /* RegistroViewController.swift in Sources */,
+				B1A283D626103DA100D83235 /* RecordTableViewCell.swift in Sources */,
+				72DBFCE8260D4C1200CF2592 /* AppDelegate.swift in Sources */,
+				72DBFCEA260D4C1200CF2592 /* SceneDelegate.swift in Sources */,
+				B1A283C62610276B00D83235 /* UIViewController+Loader.swift in Sources */,
+				B1A283D126103C0400D83235 /* ListViewController..swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DBFCF6260D4C1300CF2592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DBFCFF260D4C1300CF2592 /* bambooPracticalExamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DBFD01260D4C1300CF2592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DBFD0A260D4C1300CF2592 /* bambooPracticalExamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72DBFCFC260D4C1300CF2592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72DBFCE3260D4C1200CF2592 /* bambooPracticalExam */;
+			targetProxy = 72DBFCFB260D4C1300CF2592 /* PBXContainerItemProxy */;
+		};
+		72DBFD07260D4C1300CF2592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72DBFCE3260D4C1200CF2592 /* bambooPracticalExam */;
+			targetProxy = 72DBFD06260D4C1300CF2592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72DBFCED260D4C1200CF2592 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72DBFCEE260D4C1200CF2592 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72DBFCF2260D4C1300CF2592 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72DBFCF3260D4C1300CF2592 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72DBFD0C260D4C1300CF2592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72DBFD0D260D4C1300CF2592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72DBFD0F260D4C1300CF2592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA137DE175E2C89BD456667 /* Pods-bambooPracticalExam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bambooPracticalExam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimoreb.bambooPracticalExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72DBFD10260D4C1300CF2592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B75EAC5DF50FCB0A5924400 /* Pods-bambooPracticalExam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bambooPracticalExam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimoreb.bambooPracticalExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72DBFD12260D4C1300CF2592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE978047D2E230A2BC900A7 /* Pods-bambooPracticalExamTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bambooPracticalExamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimoreb.bambooPracticalExamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bambooPracticalExam.app/bambooPracticalExam";
+			};
+			name = Debug;
+		};
+		72DBFD13260D4C1300CF2592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E43B1ED3C0B5F4473EE8C158 /* Pods-bambooPracticalExamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bambooPracticalExamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimoreb.bambooPracticalExamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bambooPracticalExam.app/bambooPracticalExam";
+			};
+			name = Release;
+		};
+		72DBFD15260D4C1300CF2592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CA6B91DF96B641AC82F48FA /* Pods-bambooPracticalExam-bambooPracticalExamUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bambooPracticalExamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimoreb.bambooPracticalExamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bambooPracticalExam;
+			};
+			name = Debug;
+		};
+		72DBFD16260D4C1300CF2592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8FD2C47FC37026B2AC11D5 /* Pods-bambooPracticalExam-bambooPracticalExamUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bambooPracticalExamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimoreb.bambooPracticalExamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bambooPracticalExam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72DBFCDF260D4C1200CF2592 /* Build configuration list for PBXProject "bambooPracticalExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DBFD0C260D4C1300CF2592 /* Debug */,
+				72DBFD0D260D4C1300CF2592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72DBFD0E260D4C1300CF2592 /* Build configuration list for PBXNativeTarget "bambooPracticalExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DBFD0F260D4C1300CF2592 /* Debug */,
+				72DBFD10260D4C1300CF2592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72DBFD11260D4C1300CF2592 /* Build configuration list for PBXNativeTarget "bambooPracticalExamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DBFD12260D4C1300CF2592 /* Debug */,
+				72DBFD13260D4C1300CF2592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72DBFD14260D4C1300CF2592 /* Build configuration list for PBXNativeTarget "bambooPracticalExamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DBFD15260D4C1300CF2592 /* Debug */,
+				72DBFD16260D4C1300CF2592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72DBFCDC260D4C1200CF2592 /* Project object */;
+}

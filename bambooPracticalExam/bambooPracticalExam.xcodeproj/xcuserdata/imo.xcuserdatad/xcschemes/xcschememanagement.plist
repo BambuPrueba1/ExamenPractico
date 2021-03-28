@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>bambooPracticalExam.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>72DBFCE3260D4C1200CF2592</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>72DBFCF9260D4C1300CF2592</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>72DBFD04260D4C1300CF2592</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
